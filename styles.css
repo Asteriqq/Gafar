@@ -73,6 +73,20 @@ header span {
     border-top: 2px solid lightgrey;
 }
 
+button{
+    background-color: gray;
+    width: 200px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
 /* Pseudo-classes */
 
 a:link {
