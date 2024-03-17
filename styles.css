@@ -1,0 +1,190 @@
+/*
+id>class. classes can be used for more than one element while ids can only be used by one(it's specific). an element can only have one id and ids can be used for only one element. 'learn flexbox'
+
+*/
+/* Type selectors */
+
+body {
+    text-align: center;
+    color: #878787;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 53px;
+    font-weight: bold;
+}
+
+h4{
+    color: black;
+}
+
+/* ID selectors */
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px orange;
+}
+
+/* descendants selector*/
+header span {
+    color: white;
+    font-size: 26px;
+}
+
+/* Class selectors */
+
+.main-header {
+    background-color: gray;
+    text-transform: uppercase;
+}
+
+.secondary-content {
+    text-align: left;
+}
+
+
+.title {
+    color: white;
+    font-size: 26px;
+}
+
+.primary-content {
+    text-align: center;
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+/* Pseudo-classes */
+
+a:link {
+    color: blackA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active{
+    color: lightcoral;
+}
+
+a:focus{
+    color: white;
+    background-color: orange;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(Images/banner/b14.png);
+    background-color: #041e42;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+}
+
+#newsletter h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.85rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+/*Footer*/
+footer{
+    display: block;
+    justify-content: space-between;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow .icons{
+    color: #465652;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
+
+#page-header.about-header{
+    background-image: url(Images/about/about.png);
+}
